@@ -10,7 +10,8 @@ import bluecar from '../component/Images/bluecar.png';
 import {CgPlayButtonO,CgPlayPauseO} from 'react-icons/cg';
 import {BiChevronDown} from 'react-icons/bi';
 import{TiSocialTwitterCircular,TiSocialFacebookCircular,TiSocialYoutubeCircular,TiSocialInstagramCircular} from 'react-icons/ti';
-import navCar from '..//component/Images/smartcar.mp4'
+import navCar from '..//component/Images/smartcar.mp4';
+import automative from '../component/Images/automative.mp4'
 
 
 function Home() {
@@ -225,12 +226,12 @@ function Home() {
       <p className="sec6-title">THE FUTURE CAR IS HERE</p>
       <div className="sec6-content" onClick={playBtnHandler}>
           <div className="sec6-c-v" >
-                <video id="sec6-bg-v" autoPlay  ref={myVideo}>
+                <video id="sec6-bg-v"  muted  ref={myVideo}>
                     <source src={sonycar2} type="video/mp4"/>
                 </video>
           </div>
           <div className="sec6-c-v2">
-          <video id="sec6-bg-v2" autoPlay muted ref={myVideo1}>
+          <video id="sec6-bg-v2" muted ref={myVideo1}>
                     <source src={navCar} type="video/mp4"/>
                 </video>
                
@@ -256,7 +257,13 @@ function Home() {
 
 
   <div id="section8">
+    <video id="sec8-v" autoPlay controls>
+        <source src={automative} type="video/mp4"/>
+    </video>
 
+    <div className="sec8-content">
+        <h1>AU<span className="span">TOMATI</span>VE</h1>
+    </div>
   </div>
   
 
