@@ -170,7 +170,7 @@ font-size: 8vw;
 }
 .sec3-content
 {
-  background:linear-gradient( to right bottom,rgba(0, 0, 0, 0.308),rgba(117, 76, 76, 0.452)),url("D:\My Project\project3\src\component\Images\redcar.jpg") no-repeat;
+  background:linear-gradient( to right bottom,rgba(0, 0, 0, 0.308),rgba(117, 76, 76, 0.452)),url("https://i.ibb.co/Fq4ypTy/redcar.jpg") no-repeat;
   background-size: cover;
   width:100%;
   height: 600px;
