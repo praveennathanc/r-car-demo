@@ -28,7 +28,7 @@ function Home() {
     window.addEventListener('mousemove',(e)=>
     {
         setCursorX(e.pageX)
-        setCursorY(e.pageY)
+        setCursorY(e.pa)
     })
     const menuBarHandler=()=>
     {
@@ -175,7 +175,7 @@ function Home() {
 
 
   <div id="section4">
-  <video  muted loop id="sonycar" autoPlay>
+  <video  muted loop id="sonycar" controls autoPlay>
   <source src={sonycar}type="video/mp4"/>
  
 </video>
@@ -247,7 +247,7 @@ function Home() {
                    <div className="sec7-content">
                        <div className="sec7-title" style={{color:'white'}}>
                        <h1 style={{fontSize:"3vw",fontWeight:'lighter'}}>THE RACE</h1>
-                       <h1>HEADING</h1>
+                       <h1>RED JET</h1>
                        </div>
                        <div className="home-c-btn">
                     <Link to="#">Learn More</Link>
