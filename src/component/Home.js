@@ -10,7 +10,7 @@ import bluecar from '../component/Images/bluecar.png';
 import {CgPlayButtonO,CgPlayPauseO} from 'react-icons/cg';
 import {BiChevronDown} from 'react-icons/bi';
 import{TiSocialTwitterCircular,TiSocialFacebookCircular,TiSocialYoutubeCircular,TiSocialInstagramCircular} from 'react-icons/ti';
-import navCar from '..//component/Images/smartcar.mp4';
+import navCar from '../component/Images/smartcar.mp4';
 import automative from '../component/Images/automative.mp4'
 
 
