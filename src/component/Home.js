@@ -119,7 +119,7 @@ function Home() {
             
 
 <div id="home">
-<video  muted loop id="myVideo">
+<video  muted loop id="myVideo" autoPlay>
   <source src={carAnim}type="video/mp4"/>
  
 </video>
